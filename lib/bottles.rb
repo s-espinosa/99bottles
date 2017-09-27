@@ -12,7 +12,6 @@ class Bottles
   end
 
   def verses(first, last)
-    first = first
     all_verses = []
     until first == last - 1
       all_verses << verse(first)
