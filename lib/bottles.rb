@@ -1,7 +1,7 @@
 class Bottles
   def verse(number)
     if number > 0
-      "#{number_to_bottles(number)} of beer on the wall, #{number_to_bottles(number)} of beer.\nTake one down and pass it around, #{number_to_bottles(number - 1)} of beer on the wall."
+      "#{number_to_bottles(number)} of beer on the wall, #{number_to_bottles(number)} of beer.\nTake one down and pass it around, #{number_to_bottles(number - 1)} of beer on the wall.\n"
     #if number > 2
     #  "#{number} bottles of beer on the wall, #{number} bottles of beer.\nTake one down and pass it around, #{number - 1} bottles of beer on the wall.\n"
     #elsif number == 2
