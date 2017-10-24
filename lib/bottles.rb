@@ -32,7 +32,7 @@ class Bottles
     if number == 1
       "1 bottle"
     elsif number == 0
-      "no more"
+      "no more bottles"
     else
       "#{number} bottles"
     end
